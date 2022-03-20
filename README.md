@@ -32,7 +32,9 @@ bash ./fctr/install.sh
 flags: 
 -c    Create folders.
 -d    Delete folders.
-fctr -flag number_of_folders name_of_folders
+```
+```
+command: fctr -flag number_of_folders name_of_folders
 # folders are created with name_of_folder + _number, so no need to add '_' after the name
 ```
 
