@@ -1,6 +1,6 @@
 ## FCTR: Enumerated Folder Creator 
 
-This simple C script is for creating multiple folders of the same name that are enumerated from 1 to n in the same directory.
+This simple C script is for creating/deleting multiple folders of the same name that are enumerated from 1 to n in the same directory.
 
 For example, this script could create a list of folders as such:
 
@@ -9,7 +9,15 @@ folder_01, folder_02, folder_n
 ```
 using the command: 
 ```
-fctr n folder
+fctr -c n folder
+```
+or, delete a list of folders as such:
+```
+~~folder_01, folder_02, folder_n~~
+```
+using the command:
+```
+fctr -d n folder
 ```
 
 ## Installation
@@ -21,7 +29,10 @@ bash ./fctr/install.sh
 
 ## Usage
 ```
-fctr number_of_folders_to_create name_of_folder 
+flags: 
+-c    Create folders.
+-d    Delete folders.
+fctr -flag number_of_folders name_of_folders
 # folders are created with name_of_folder + _number, so no need to add '_' after the name
 ```
 
