@@ -6,7 +6,6 @@
 #include <ctype.h>
 
 bool is_number(char *num){
-	
 	if(num[0] == '-'){
 			fprintf(stderr, "You can't create NEGATIVE folders, can you?\n");
 			exit(EXIT_FAILURE);
