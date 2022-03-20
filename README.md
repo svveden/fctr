@@ -5,7 +5,7 @@ This simple C script is for creating multiple folders of the same name that are 
 For example, this script could create a list of folders as such:
 
 ```
-folder_01, folder_02, folder_0n
+folder_01, folder_02, folder_n
 ```
 using the command: 
 ```
