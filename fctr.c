@@ -16,7 +16,7 @@ int main(int argc, char *argv[]){
 		sprintf(buffer, "_%.2d", i);
 		strcpy(name, argv[2]);
 		strcat(name, buffer);
-		mkdir(name, i);
+		mkdir(name, 0755);
 	}
 	return 0;
 }
