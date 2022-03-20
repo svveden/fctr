@@ -12,9 +12,9 @@ using the command:
 fctr -c n folder
 ```
 or, delete a list of folders as such:
-```
+
 ~~folder_01, folder_02, folder_n~~
-```
+
 using the command:
 ```
 fctr -d n folder
