@@ -6,7 +6,10 @@ For example, this script could create a list of folders as such:
 
 ```
 folder_01, folder_02, folder_0n
-using the command: fctr n folder
+```
+using the command: 
+```
+fctr n folder
 ```
 
 ## Installation
