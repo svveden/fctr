@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
 	if(argc < 4){
 		fprintf(stderr, " ----------------------------------------------------------------------\n");
 		fprintf(stderr, "| This tool creates a series of folders from 01 to n with a given name |\n");
-		fprintf(stderr, "| Example: folder_01, folder_02, folder_0n                             |\n");
+		fprintf(stderr, "| Example: folder_01, folder_02, folder_n                              |\n");
 		fprintf(stderr, "| Usage: fctr -flag number_of_folders name_of_folders                  |\n");
 		fprintf(stderr, " ----------------------------------------------------------------------\n");
 		exit(EXIT_FAILURE);
