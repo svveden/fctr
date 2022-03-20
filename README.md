@@ -17,7 +17,8 @@ bash ./fctr/install.sh
 
 ## Usage
 ```
-fctr number_of_folders_to_create name_of_folder # folders are created with name_of_folder + _number, so no need to add '_' after the name
+fctr number_of_folders_to_create name_of_folder 
+# folders are created with name_of_folder + _number, so no need to add '_' after the name
 ```
 
 ## Notes
