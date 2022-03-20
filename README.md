@@ -50,11 +50,13 @@ fctr -c 10 folder 5
 ```
 Will create the following:
 ```
-folder_05, folder_06, folder_07, folder_08, folder_09
+folder_05, folder_06, folder_07, folder_08, folder_09, folder_10
 ```
 The same can be done for deleting as well, but you must start the range at a folder number that exists.
 Also, deleting will stop at the first folder it can't find, no skipping folders (yet)!
 
 ## Notes
 
-This script/program is written in C and is definitely nothing ground breaking, but I wanted to create this repo to try and learn/understand creating scripts that are able to be ripped from github using git and installed on other machines. So, I made this very simple script to speed up some formatting I was doing for my other repos and decided to try and make it portable.
+!!Folder names cannot exceed 250 chars, as Linux/OSX only allow folder names up to 255 chars!!
+
+This program/script is entirely written in C and mainly exists for me to get to know git and repo cloning! 
