@@ -33,6 +33,10 @@ int main(int argc, char *argv[]){
 		fprintf(stderr, "Number of folders invalid!\n");
 		exit(EXIT_FAILURE);
 	}
+	if(strlen(argv[3]) > 250){
+		fprintf(stderr, "The maximum folder name length is generally 255, this could exceed that\n");
+		exit(EXIT_FAILURE);
+	}
 	if(argv[1][1] == 'd'){
 		delete_folders(argv[2], argv[3]);
 	}
