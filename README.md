@@ -31,6 +31,7 @@ using the command (in current directory):
 ```
 fctr -m
 ```
+<<warning: this moves every file it can in current directory (see notes)>>
 
 ## Installation
 
