@@ -46,6 +46,7 @@ flags:
 -c    Create folders.
 -d    Delete folders.
 -m    Matching mode.
+-?    See flag list.
 ```
 ```
 command: fctr -flag number_of_folders name_of_folders
