@@ -1,7 +1,7 @@
 ## FCTR: Enumerated Folder Creator 
 
-# v 0.2.2 adds ranges!
 # v 0.3 adds -m mode!
+# v 0.2.2 adds ranges!
 
 This simple C script is for creating/deleting multiple folders of the same name that are enumerated from 1 to n in the same directory.
 # NEW: -m mode for automatically putting files in folders of the same name!
