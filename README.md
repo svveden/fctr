@@ -1,8 +1,10 @@
 ## FCTR: Enumerated Folder Creator 
 
 # v 0.2.2 adds ranges!
+# v 0.3 adds -m mode!
 
 This simple C script is for creating/deleting multiple folders of the same name that are enumerated from 1 to n in the same directory.
+# NEW: -m mode for automatically putting files in folders of the same name!
 
 For example, this script could create a list of folders as such:
 
@@ -21,6 +23,14 @@ using the command:
 ```
 fctr -d n folder
 ```
+or, create folders of matching name to files and store said files in these new folders:
+```
+file_1.c -> file_1 (folder)
+```
+using the command (in current directory):
+```
+fctr -m
+```
 
 ## Installation
 
@@ -34,6 +44,7 @@ bash ./fctr/install.sh
 flags: 
 -c    Create folders.
 -d    Delete folders.
+-m    Matching mode.
 ```
 ```
 command: fctr -flag number_of_folders name_of_folders
@@ -58,5 +69,6 @@ Also, deleting will stop at the first folder it can't find, no skipping folders 
 ## Notes
 
 !!Folder names cannot exceed 250 chars, as Linux/OSX only allow folder names up to 255 chars!!
+!!-m mode will not move executables as they have no extension, any other files with the same name as the executable will also not be moved!!
 
 This program/script is entirely written in C and mainly exists for me to get to know git and repo cloning! 
